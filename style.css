@@ -1,0 +1,208 @@
+#hero-section {
+    background-image: url("sample.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+
+#hero-section::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+#hero-section #logo {
+    color: white;
+    position: relative;
+    z-index: 9;
+    font-size: 20px;
+}
+
+#hero-section header {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+#hero-section nav {
+    justify-content: space-evenly;
+}
+
+#hero-section nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#hero-section nav ul li {
+    margin: 10px;
+    z-index: 9;
+}
+
+#hero-section nav ul li a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding: 12px 0px;
+    transition: all 1s;
+}
+
+#hero-section nav ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+#hero-section #hero-desc {
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    z-index: 9;
+    padding-top: 90px;
+}
+
+#hero-section #hero-desc p {
+    color: white;
+    max-width: 25%;
+    margin: auto;
+    font-size: 40px;
+}
+
+#hero-section #watch {
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    z-index: 9;
+}
+
+#hero-section #watch img {
+    width: 15px;
+    height: 15px;
+    padding-right: 10px;
+}
+
+#hero-section #watch a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 2s;
+    padding-bottom: 5px;
+}
+
+#hero-section #watch a:hover {
+    border-bottom: 2px solid rgb(245, 201, 55);
+}
+
+#section2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 30vh;
+}
+
+#section2 #served {
+    background-color: rgb(245, 201, 55);
+    margin-right: 30px;
+    width: 400px;
+    height: 200px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+#section2 #served #digit {
+    font-size: 45px;
+    letter-spacing: 1.2px;
+}
+
+#section2 #served #program {
+    margin-top: -13px;
+}
+
+#section2 #served #program a {
+    font-size: 10px;
+    padding: 5px 13px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    transition: all 2s;
+    border-bottom: 1.5px solid transparent;
+}
+
+#section2 #served #program a:hover {
+    border-bottom: 1.5px solid black;
+}
+
+#section2 #who p {
+    font-size: 15px;
+    color: rgb(46, 45, 45);
+    line-height: 20px;
+    margin-top: -10px;
+}
+
+#section2 #who .who {
+    color: black;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+#section2 #who .learn a {
+    color: white;
+    background-color: rgb(245, 201, 55);
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 5px 13px;
+    letter-spacing: 1.5px;
+    transition: all 2s;
+}
+
+#section2 #who .learn a:hover {
+    color: black;
+}
+
+#section3 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    height: 18vh;
+    color: grey;
+    margin-left: -50px;
+}
+
+#section3 img {
+    height: 65px;
+    width: 65px;
+    float: left;
+    margin-top: -8px;
+}
+
+#section3 p {
+    padding-left: 65px;
+    line-height: 21px;
+}
+
+#section3 .main {
+    color: Black;
+    font-size: 18px;
+}
+
+#section3 .link a {
+    color: rgb(245, 201, 55);
+    transition: all 2s;
+}
+
+#section3 .link a:hover {
+    color: black;
+
+}
